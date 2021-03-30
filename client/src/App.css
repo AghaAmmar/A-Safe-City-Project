@@ -1,0 +1,77 @@
+.App {
+  text-align: auto;
+}
+
+.label-signup {
+  text-align: left;
+  color: red;
+}
+.label-login {
+  text-align: center;
+  color: red;
+}
+.center {
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  align-content: center;
+  place-content: 50;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+.search_bar {
+  width: 780px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.search {
+  display: block;
+  border: 1px solid palevioletred;
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 100%;
+  background: #fff;
+  padding-left: 40px;
+  border-radius: 20px;
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.heading {
+  color: palevioletred;
+  font-style: normal;
+}
+.App-link {
+  color: #ffffff;
+}
+.linkwrap {
+  position: relative;
+  display: inline-block;
+}
+.blocker {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.linkwrap iframe {
+  z-index: 2;
+}
+.views {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
